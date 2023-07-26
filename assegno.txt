@@ -1,0 +1,12 @@
+doppio input per creare un array di json con testo e numero [{testo:'cacca',numero:1} ,{testo:'cacca2',numero:2},...], mostralo a video con la solita lista (tabella, quello che vuoi)
+variabile numerica che funge da moltiplicatore nel componente padre, questa variabile va passata in un componente (Contatore.vue) dove viene mostrata a video e ci sono un (più) + e un - (meno) che aggiornano la valorizzazione (emettere evento dal figlio e il padre aggiorna la valorizzazione della variabile).
+variabile computed che fa la somma * moltiplicatore
+BONUS aggiungere la quantità ad ogni oggetto dell'array utilizzando lo stesso componente (Contatore.vue)
+
+ESEMPIO
+array:[{testo:'cacca',numero:10} ,{testo:'cacca2',numero:15}]
+moltiplicatore:5
+totale: (10+15)*5=125
+ESEMPIO BONUS
+array:[{testo:'cacca',numero:10,quantità:1} ,{testo:'cacca2',numero:15,quantità:3}]
+totale: (10*1)+(15*3)=55
